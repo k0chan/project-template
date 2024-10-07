@@ -1,0 +1,11 @@
+# I don't know the GitHub Action yet but the CI/CD process could look like this.
+
+jobs:
+  # 1. build application artifact
+  # 2. build application image
+  # 3. Create a timestamp for image version
+  # 4. run container
+  # 5. push image to a image repository e.g. ECR
+  # 6. enable `deploy to dev` job
+  # 7. enable `deploy to stage` job
+  # 8. enable `deploy to prod` job
